@@ -1,0 +1,25 @@
+.settings-modal {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: aquamarine;
+  border-radius: 30px;
+  border-color: darkcyan;
+  border-width: 10px;
+  border-style: solid;
+  width: max-content;
+  margin-top: 35px;
+  padding: 10px;
+  left: 900px;
+}
+
+.submit {
+  text-align: center;
+}
+
+#Header, #SideBar, #HeaderAnimation, #ProjectAnimation, #TaskAnimation, #SideBarAnimation {
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 0px;
+}
+

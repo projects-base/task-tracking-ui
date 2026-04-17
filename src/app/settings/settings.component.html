@@ -1,0 +1,38 @@
+<div class="shadow-lg settings-modal mx-auto">
+  <form>
+    <div (click)="updateField('HEADER')">
+      <input type="checkbox" id="Header" [checked]="fieldSettings.HEADER">
+      <label for="Header"> Header</label>
+    </div>
+    <br>
+    <div (click)="updateField('SIDE_BAR')">
+      <input type="checkbox" id="SideBar" [checked]="fieldSettings.SIDE_BAR">
+      <label for="SideBar"> Side Bar</label>
+    </div>
+    <br>
+    <div (click)="updateField('HEADER_ANIMATION')">
+      <input type="checkbox" id="HeaderAnimation" [checked]="fieldSettings.HEADER_ANIMATION">
+      <label for="HeaderAnimation"> Header Animation</label>
+    </div>
+    <br>
+    <div (click)="updateField('SIDE_BAR_ANIMATION')">
+      <input type="checkbox" id="SideBarAnimation" [checked]="fieldSettings.SIDE_BAR_ANIMATION">
+      <label for="SideBarAnimation"> SideBar Animation</label>
+    </div>
+    <br>
+    <div (click)="updateField('TASK_ANIMATION')">
+      <input type="checkbox" id="TaskAnimation" [checked]="fieldSettings.TASK_ANIMATION">
+      <label for="TaskAnimation"> Task Animation</label>
+    </div>
+    <br>
+    <div (click)="updateField('PROJECT_ANIMATION')">
+      <input type="checkbox" id="ProjectAnimation" [checked]="fieldSettings.PROJECT_ANIMATION">
+      <label for="ProjectAnimation"> Project Animation</label>
+    </div>
+    <br>
+
+    <div class="submit">
+      <button class="btn btn-primary"> Apply</button>
+    </div>
+  </form>
+</div>

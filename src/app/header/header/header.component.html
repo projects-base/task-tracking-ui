@@ -1,0 +1,16 @@
+<div class="container">
+  <ul class="header">
+    <li class="menu"><img style="width: 30px; height: 30px" [src]="burgerButton"></li>
+    <li> Task Tracking</li>
+    <li class="header-left">
+<!--      <div class="thread"></div>-->
+      <div class="settings"><img style="width: 30px; height: 30px"
+                                 [src]="settingsImage"
+                                 (click)="settingsClick()"></div>
+      <app-settings [hidden]="hideSettingsModal" ></app-settings>
+    </li>
+  </ul>
+</div>
+
+<!--                                  (mouseover)="settingsMouseOver()" -->
+<!--                                  (mouseout)="settingsMouseOut()" -->
